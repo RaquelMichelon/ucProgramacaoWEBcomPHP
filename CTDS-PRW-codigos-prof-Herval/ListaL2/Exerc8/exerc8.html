@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Programação Web com PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Vetores em PHP - compra vrtual de medicamentos </h1>
+ <form action="exerc8.php" method="post">
+  <fieldset>
+   <legend> Lista &nbsp; de medicamentoas disponíveis </legend>
+   <label> Selecione os medicamentos para a compra: </label> <br>
+
+   <input type="checkbox" name="medicamentos[]" value="Aspirina"> Aspirina <br>
+   <input type="checkbox" name="medicamentos[]" value="Rivotril"> Rivotril <br>
+   <input type="checkbox" name="medicamentos[]" value="Ritalina"> Ritalina <br> <br>
+
+   <input type="checkbox" name="idade" value="Sim"> Marque esta opção se você tem 60 anos de idade ou mais <br>
+   
+   <button name="enviar-dados"> Processar compra do cliente </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

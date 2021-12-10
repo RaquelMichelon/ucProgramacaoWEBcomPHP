@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
+body {
+    font-family: Poppins;
+    font-size: 20px;
+    margin: 0;
+}
+
+.grid-container {
+    margin: 3rem auto;
+    display: grid;
+    grid-template-areas: 
+    "grid-image grid-form"
+    "grid-table grid-table";
+    grid-gap: 40px;
+}
+
+.grid-form {
+    justify-self: start;
+    align-self: center;
+}
+
+.grid-image {
+    justify-self: end;
+    align-self: center;
+}
+
+.grid-table {
+    grid-column: grid-table;
+}
+
+
+.flex-container fieldset {
+    width: 80%;
+    height: 50%;
+}
+
+h1 {
+    text-align: center;
+    color: #FBFCFF;
+    margin: 0;
+    background-image: url(https://mh-2-agencia-estoque.panthermedia.net/media/previews/0010000000/10111000/~n%C3%BAmeros-em-um-fundo-preto_10111537_high.jpg);
+    padding: 1rem;
+    box-shadow: 0 0 5px 5px rgba(216, 214, 214, 0.774);
+    margin-bottom: 30px;
+}
+
+img {
+    grid-area: left;
+    margin-right: 0;
+    margin-left: auto;
+    height: 500px;
+    width: 500px;
+}
+
+form {
+    display: inline-block;
+    grid-area: center;
+    margin: left;
+    margin-left: 0;
+    margin-right: auto;
+    min-width: 750px;
+    align-self: center;
+}
+
+
+fieldset {
+    display: block;
+    width: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px rgba(216, 214, 214, 0.774); 
+    padding: 25px;
+    padding-bottom: 3px;
+    border: none;
+}
+
+legend {
+    color: #737F8B;
+}
+
+label {
+    display: inline;
+    align-items: left;
+}
+
+label.alinha {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+
+input {
+    outline: none; 
+    font-size: 20px;
+    margin: 4px;
+    border: none;
+    border-bottom: 1px solid #94F1E4;
+    align-self: right;
+}
+
+
+button {
+    font-family: Poppins;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 0.8rem;
+    border: none;
+    height: 2.5rem;
+    width: 25rem;
+    background: #94F1E4;
+    color: #FBFCFF;
+
+    transition: filter .2s;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    background-color: #94F1E4;
+}
+
+span {
+    font-weight: bold;
+}
+

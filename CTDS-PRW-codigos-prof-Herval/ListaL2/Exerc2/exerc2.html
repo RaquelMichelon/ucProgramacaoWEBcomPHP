@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Programação Web com PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Cálculo de médias da UC PRW com PHP </h1>
+ <form action="exerc2.php" method="post">
+  <fieldset>
+   <legend> CTDS-PRW-Dados cadastrais do aluno </legend>
+   <label class="alinha"> Nome do aluno 1: </label>
+   <input type="text" name="nome1" autofocus placeholder="Nome do aluno...">
+   <label class="alinha"> Nota do aluno 1: </label>
+   <input type="number" name="nota1" step="0.1" min="0" max="10"> <br>  
+
+   <label class="alinha"> Nome do aluno 2: </label>
+   <input type="text" name="nome2" placeholder="Nome do aluno...">
+   <label class="alinha"> Nota do aluno 2: </label>
+   <input type="number" name="nota2" step="0.1" min="0" max="10"> <br> 
+
+   <label class="alinha"> Nome do aluno 3: </label>
+   <input type="text" name="nome3" placeholder="Nome do aluno...">
+   <label class="alinha"> Nota do aluno 3: </label>
+   <input type="number" name="nota3" step="0.1" min="0" max="10"> <br> 
+   
+   <button name="enviar-dados"> Calcular média </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

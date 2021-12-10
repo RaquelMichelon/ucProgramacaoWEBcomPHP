@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+body {
+ font-family: "Stint Ultra Condensed";
+ font-size: 20px;
+ margin: 0; /*zera as margens, permitindo que a caixa do h1 encoste no topo e nas laterais do navegador*/ 
+}
+
+h1 {
+ text-align: center; /*alinha o texto na horizontal*/
+ margin: 0;
+ background-image: url(https://i0.wp.com/www.savepoint.blog.br/wp-content/uploads/2018/01/Light-Grey-Background-Hd-5-1.jpg?ssl=1);
+ box-shadow: 0 0 5px 5px rgba(50, 50, 50, 0.6);
+ text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+ margin-bottom: 30px; 
+}
+
+fieldset {
+ width: 40%;
+ margin: 15px auto;
+ box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.6);
+ padding: 25px;
+ padding-bottom: 5px;
+}
+
+label.alinha {
+ width: 150px;
+ display: inline-block;
+ text-align: right;
+ margin-bottom: 25px;
+}
+
+/*usando seletor de atributos para aumentar o tamanho das caixas com o nome do aluno*/
+input[type="text"] {
+ width: 330px;
+}
+
+input {
+ font-family: "Stint Ultra Condensed";
+ font-size: 18px;
+}
+
+input[name="aluno"] {
+ width: 250px;
+}
+
+button {
+ font-family: "Stint Ultra Condensed";
+ font-size: 23px;
+ margin: auto;
+ display: block; /*converte o botão para nível de bloco, permitindo sua centralização*/
+ margin-top: 10px;
+}
+
+p {
+ border: 1px solid rgb(100, 100, 100);
+ text-align: center;
+ margin: 20px auto;
+ width: 50%;
+ padding: 20px;
+ background-color: rgba(200, 200, 200, 0.4);
+}
+
+span {
+ color: #2F4F4F;
+ font-weight: bold; /*fonte em negrito*/
+ font-style: italic;
+}
+
+table {
+ border: 1px solid #2F4F4F;
+ width: 40%;
+ height: 200px;
+ margin: 20px auto;
+ box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+ background-color: #FFFAF0;
+ /*border-spacing: 0px; controla a distância entre as células*/
+ border-collapse: collapse;
+
+}
+
+td, th {
+ border: 1px solid #2F4F4F;
+ text-align: center;
+}
+
+th {
+ background-color: #B0E0E6;
+}
+
+caption {
+ /*text-align: right;
+ margin-bottom: 10px;*/
+ caption-side: bottom; /*a legenda se posiciona no rodapé da tabela*/
+ margin-top: 7px;
+}
+

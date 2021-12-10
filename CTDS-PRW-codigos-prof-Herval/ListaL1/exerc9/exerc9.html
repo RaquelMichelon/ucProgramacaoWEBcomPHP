@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Programação Web com PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Processando a venda de determinado estabelecimento </h1>
+ <form action="exerc9.php" method="post">
+  <fieldset>
+   <legend> Dados da compra do cliente </legend>
+
+   <label> Forneça o valor da compra: </label> 
+   <input type="number" name="valor-compra" autofocus step="0.01"> <br> <br>
+
+   <label> Forma de pagamento: </label> <br>
+   <input type="radio" name="forma-pagamento" value="Vista"> Pagamento à vista <br>
+   <input type="radio" name="forma-pagamento" value="Prazo"> Pagamento a prazo <br> <br>
+
+   <input type="checkbox" name="cartao" value="Cartão Visa"> Pagamento com cartão Visa <br>
+
+   <button name="enviar-dados"> Efetuar processamento da compra </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

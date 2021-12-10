@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Programação Web com PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Processando as compras de supermercado </h1>
+ <form action="exerc7.php" method="post">
+  <fieldset>
+   <legend> Dados da compra do cliente </legend>
+
+   <label> Forneça o valor da compra: </label> 
+   <input type="number" name="valor-compra" autofocus step="0.01"> <br> <br>
+
+   <label> Pagou com cartão? </label> <br>
+   <input type="radio" name="forma-pagamento" value="Sim"> Sim <br>
+   <input type="radio" name="forma-pagamento" value="Não"> Não <br> <br>
+
+   <label> Solicitou entrega à domicílio? </label> <br>
+   <input type="radio" name="entrega-domicilio" value="Sim"> Sim <br>
+   <input type="radio" name="entrega-domicilio" value="Não"> Não <br> <br>   
+
+   <button name="enviar-dados"> Efetuar processamento da compra </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 
